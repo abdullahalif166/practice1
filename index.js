@@ -1,9 +1,9 @@
 
 function addRow(){
-    var shopName = document.getElementById('shopName').value;
-    var address = document.getElementById('address').value;
-    var ownerName = document.getElementById('ownerName').value;
-    var monogram = document.getElementById('monogram').value;
+    const shopName = document.getElementById("shopName").value;
+    const address = document.getElementById('address').value;
+    const ownerName = document.getElementById('ownerName').value;
+    const monogram = document.querySelector('monogram');
     
     var table = document.getElementById('listTable');
     var row = table.insertRow(1);
